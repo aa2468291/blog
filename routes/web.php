@@ -12,5 +12,23 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return 'index';
 });
+
+Route::get('/about', function () {
+    return 'about';
+});
+
+Route::get('/contact', function () {
+    return 'contact';
+});
+
+
+Route::get('/posts', function () {
+    return 'post list';
+});
+
+Route::get('/posts/{id}', function ($id) {
+    return 'single post： '.$id;
+});
+
