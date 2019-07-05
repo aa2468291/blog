@@ -27,10 +27,10 @@ Route::get('/contact', function () {
 
 
 Route::get('/posts', function () {
-    return 'post list';
+    return view('posts.list');
 });
 
 Route::get('/posts/{id}', function ($id) {
-    return 'single post： '.$id;
+    return view('posts.show');
 });
 
