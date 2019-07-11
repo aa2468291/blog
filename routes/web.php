@@ -26,12 +26,29 @@ Route::get('/contact', function () {
 });
 
 
-Route::get('/posts', function () {
-    $posts = [1,2,3,4,5];
-    return view('posts.list',compact('posts'));
-});
+//CRUD
+Route::post('/posts','PostController@store');
+Route::get('/posts/{post}','PostController@show');
+Route::put('/posts/{post}','PostController@update');
+Route::delete('/posts/{post}','PostController@destroy');
 
-Route::get('/posts/{id}', function ($id) {
-    return view('posts.show');
-});
+// 3 routing: create / edit / list
+
+Route::get('/posts/create','PostController@create');
+Route::get('/posts/{post}/edit','PostController@edit');
+Route::get('/posts','PostController@index');
+
+
+
+
+
+
+//Route::get('/posts', function () {
+//    $posts = [1,2,3,4,5];
+//    return view('posts.list',compact('posts'));
+//});
+//
+//Route::get('/posts/{id}', function ($id) {
+//    return view('posts.show');
+//});
 
