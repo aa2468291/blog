@@ -27,14 +27,12 @@ Route::get('/contact', function () {
 
 
 //CRUD
+// 3 routing: create / edit / list
 Route::post('/posts','PostController@store');
+Route::get('/posts/create','PostController@create');
 Route::get('/posts/{post}','PostController@show');
 Route::put('/posts/{post}','PostController@update');
 Route::delete('/posts/{post}','PostController@destroy');
-
-// 3 routing: create / edit / list
-
-Route::get('/posts/create','PostController@create');
 Route::get('/posts/{post}/edit','PostController@edit');
 Route::get('/posts','PostController@index');
 
