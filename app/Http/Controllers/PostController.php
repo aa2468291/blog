@@ -32,7 +32,13 @@ class PostController extends Controller
         $post->save();
 
         return redirect('/posts');
-
-
     }
+
+    public function show(Post $post)
+    {
+        return view('posts.showByAdmin',compact('post'));
+    }
+
+
+
 }

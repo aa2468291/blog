@@ -31,6 +31,7 @@ Route::get('/contact', function () {
 Route::get('/posts/admin','PostController@admin');
 Route::post('/posts','PostController@store');
 Route::get('/posts/create','PostController@create');
+Route::get('/posts/show/{post}','PostController@show');
 Route::get('/posts/{post}','PostController@show');
 Route::put('/posts/{post}','PostController@update');
 Route::delete('/posts/{post}','PostController@destroy');
