@@ -20,8 +20,14 @@
 @section('content')
     <div class="page-content">
         <div class="container">
+            <div class="toolbox">
+                <a href="" class="btn btn-primary">Edit</a>
+{{--                <a href="" class="btn btn-primary">Delete</a>--}}
+                <button class="btn btn-danger">Delete</button>
 
-                {{$post->title}}
+            </div>
+
+                <h1>{{$post->title}}</h1>
                 {{$post->content}}
 
         </div>
