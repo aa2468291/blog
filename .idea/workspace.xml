@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
     </list>
     <list id="0dfa1411-59db-492b-9d83-0a0f4e3d9f99" name="test" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -408,7 +407,7 @@
       <workItem from="1562812131727" duration="1489000" />
       <workItem from="1562826013038" duration="13959000" />
       <workItem from="1562854964393" duration="4224000" />
-      <workItem from="1562898110734" duration="4910000" />
+      <workItem from="1562898110734" duration="5181000" />
     </task>
     <task id="LOCAL-00001" summary="+ about/contact view">
       <created>1562170839559</created>
@@ -466,11 +465,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562900873503</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="admin/create view updated">
+      <created>1562903293416</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562903293416</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87148000" />
+    <option name="totallyTimeSpent" value="87419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,7 +489,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="35" y="49" width="1655" height="968" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2413793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -581,7 +586,8 @@
     <MESSAGE value="route updated(CRUD)" />
     <MESSAGE value="Post Model,PostController updated" />
     <MESSAGE value="+list view" />
-    <option name="LAST_COMMIT_MESSAGE" value="+list view" />
+    <MESSAGE value="admin/create view updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin/create view updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_ide_helper.php">
