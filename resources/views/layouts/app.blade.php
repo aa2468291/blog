@@ -33,6 +33,7 @@
 </div>
 
 @include('layouts.js')
+@yield('script')
 
 </body>
 
