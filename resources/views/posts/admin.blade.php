@@ -24,21 +24,26 @@
                 <a href="/posts/create" class="btn btn-primary pull-right">create post</a>
             </div>
 
-{{--            <br class="hidden-xs"/>--}}
+            {{--            <br class="hidden-xs"/>--}}
 
 
-
-
-
-
-            <div class="list-group">
+            <ul class="list-group">
 
                 @foreach($posts as $key =>$post)
-                    <a href="/posts/show/{{$post->id}}" class="list-group-item">{{$post->title}}</a>
+                    <li class="list-group-item clearfix">
+                        {{$post->title}}
+                        <span class="pull-right">
+                            <a href="/posts/show/{{$post->id}}" class="btn btn-default">View</a>
+                            <a href="/posts/{{$post->id}}/edit" class="btn btn-primary">Edit</a>
+                            <button class="btn btn-danger pull-right">Delete</button>
+                        </span>
+
+                    </li>
+
                 @endforeach
 
 
-            </div>
+            </ul>
         </div>
     </div>
 @endsection

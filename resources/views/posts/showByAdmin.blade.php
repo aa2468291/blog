@@ -20,15 +20,17 @@
 @section('content')
     <div class="page-content">
         <div class="container">
-            <div class="toolbox">
-                <a href="" class="btn btn-primary">Edit</a>
+            <div class="clearfix toolbox">
+
+                <a href="/posts/{{$post->id}}/edit" class="btn btn-primary pull-right">Edit</a>
 {{--                <a href="" class="btn btn-primary">Delete</a>--}}
-                <button class="btn btn-danger">Delete</button>
+                <button class="btn btn-danger pull-right">Delete</button>
 
             </div>
 
                 <h1>{{$post->title}}</h1>
                 {{$post->content}}
+
 
         </div>
     </div>
