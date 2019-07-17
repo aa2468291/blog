@@ -46,8 +46,11 @@ class PostController extends Controller
 
     public function update(Request $request,Post $post)
     {
-        $post->fill($request->all());
-        $post->save();
+       /* $post->fill($request->all());
+        $post->save();*/
+
+        $post->update($request->all());
+
 
         return redirect('/posts/admin');
 

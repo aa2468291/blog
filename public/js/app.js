@@ -12777,6 +12777,20 @@ $.ajaxSetup({
   }
 });
 
+document.deletePost = function (id) {
+  var result = confirm('Do you want to delete the post?');
+
+  if (result) {
+    var actionUrl = '/posts/' + id; // $('#delete-form').attr('action',actionUrl).submit();
+
+    $.post(actionUrl, {
+      _method: 'delete'
+    }).done(function () {
+      location.href = '/posts/admin';
+    });
+  }
+};
+
 /***/ }),
 
 /***/ "./resources/js/components/ExampleComponent.vue":

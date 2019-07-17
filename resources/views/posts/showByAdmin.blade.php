@@ -24,7 +24,7 @@
 
                 <a href="/posts/{{$post->id}}/edit" class="btn btn-primary pull-right">Edit</a>
 {{--                <a href="" class="btn btn-primary">Delete</a>--}}
-                <button class="btn btn-danger pull-right">Delete</button>
+                <button class="btn btn-danger pull-right" onclick="deletePost({{$post->id}})">Delete</button>
 
             </div>
 

@@ -60,17 +60,4 @@
 @endsection
 
 @section('script')
-    <script>
-        let deletePost = function (id) {
-            let result = confirm('Do you want to delete the post?');
-            if(result){
-                let actionUrl = '/posts/'+id;
-                // $('#delete-form').attr('action',actionUrl).submit();
-
-                $.post(actionUrl,{_method:'delete'}).done(function () {
-                    location.reload();
-                })
-            }
-        }
-    </script>
 @endsection
