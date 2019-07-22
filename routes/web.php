@@ -52,3 +52,7 @@ Route::get('/posts','PostController@index');
 //    return view('posts.show');
 //});
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

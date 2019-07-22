@@ -1,4 +1,4 @@
-@extends('layouts.app',['overlay'=>true])
+@extends('layouts.frontend',['overlay'=>true])
 
 
 
