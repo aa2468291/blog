@@ -28,8 +28,10 @@
 
             </div>
 
-                <h1>{{$post->title}}</h1>
-                {{$post->content}}
+            <small class="author">{{$post->user->name}}</small>
+            <h1>{{$post->title}}</h1>
+            <div class="content">{{$post->content}}</div>
+
 
 
         </div>
