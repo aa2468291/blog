@@ -1,4 +1,4 @@
-@extends('layouts.frontend')
+@extends('layouts.app')
 
 @section('page-title')
     <section class="page-title">
@@ -7,8 +7,8 @@
                 <div class="col-md-12">
                     <h4 class="text-uppercase">Blog Admin Panel</h4>
                     <ol class="breadcrumb">
-                        <li><a href="/">Home</a></li>
-                        <li class="active">Blog Admin Panel</li>
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item active">Blog Admin Panel</li>
                     </ol>
                 </div>
             </div>
@@ -20,8 +20,8 @@
     <div class="page-content">
         <div class="container">
 
-            <div class="clearfix toolbox">
-                <a href="/posts/create" class="btn btn-primary pull-right">create post</a>
+            <div class="toolbox">
+                <a href="/posts/create" class="btn btn-primary">create post</a>
             </div>
 
             {{--            <br class="hidden-xs"/>--}}
@@ -31,7 +31,7 @@
 
                 @foreach($posts as $key =>$post)
                     <li class="list-group-item clearfix">
-                        <div class="pull-left">
+                        <div class="float-left">
                             <div class="title">{{$post->title}}</div>
                             <small class="author">{{$post->user->name}}</small>
 
@@ -39,8 +39,8 @@
 
                         </div>
 
-                        <span class="pull-right">
-                            <a href="/posts/show/{{$post->id}}" class="btn btn-default">View</a>
+                        <span class="float-right">
+                            <a href="/posts/show/{{$post->id}}" class="btn btn-secondary">View</a>
                             <a href="/posts/{{$post->id}}/edit" class="btn btn-primary">Edit</a>
                             <button class="btn btn-danger pull-right" onclick="deletePost({{$post->id}})">Delete</button>
                         </span>
