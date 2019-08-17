@@ -4,7 +4,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+// require('./bootstrap');
 
 window.Vue = require('vue');
 
@@ -36,14 +36,3 @@ $.ajaxSetup({
         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
     }
 });
-
-document.deletePost = function (id) {
-    let result = confirm('Do you want to delete the post?');
-    if(result){
-        let actionUrl = '/posts/'+id;
-        // $('#delete-form').attr('action',actionUrl).submit();
-        $.post(actionUrl,{_method:'delete'}).done(function () {
-            location.href = '/posts/admin';
-        })
-    }
-}
