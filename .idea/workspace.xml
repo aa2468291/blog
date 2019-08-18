@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/showByAdmin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/showByAdmin.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -281,7 +276,10 @@
       <workItem from="1565332678588" duration="160000" />
       <workItem from="1565528044690" duration="2856000" />
       <workItem from="1565676269670" duration="16000" />
-      <workItem from="1566050004048" duration="6684000" />
+      <workItem from="1566050004048" duration="7521000" />
+      <workItem from="1566111516539" duration="572000" />
+      <workItem from="1566112116042" duration="84000" />
+      <workItem from="1566139722928" duration="1535000" />
     </task>
     <task id="LOCAL-00001" summary="+ about/contact view">
       <created>1562170839559</created>
@@ -451,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566056411571</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="admin create/edit/view 調整">
+      <created>1566057735016</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1566057735016</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -518,6 +523,7 @@
     <MESSAGE value="request authorization update" />
     <MESSAGE value="fix css/js for backend" />
     <MESSAGE value="admin panel 調整" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin panel 調整" />
+    <MESSAGE value="admin create/edit/view 調整" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin create/edit/view 調整" />
   </component>
 </project>
