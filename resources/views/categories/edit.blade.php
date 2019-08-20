@@ -24,9 +24,7 @@
     <div class="page-content">
         <div class="container">
 
-            @include('posts._form')
-
-            {{--@if ($errors->any())
+            @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul>
                         @foreach ($errors->all() as $error)
@@ -40,8 +38,8 @@
             <form method="post" action="/posts/{{$post->id}}">
                 @csrf
                 <input type="hidden" name="_method" value="put">
---}}{{--                <input type="hidden" name="id" value="{{$post->id }}">--}}{{--
---}}{{--                legacy--}}{{--
+{{--                <input type="hidden" name="id" value="{{$post->id }}">--}}
+{{--                legacy--}}
 
                 <div class="form-group">
                     <label for="exampleInputEmail1">Title</label>
@@ -55,7 +53,7 @@
                 <button type="submit" class="btn btn-primary">Submit</button>
                 <button type="button" class="btn btn-secondary" onclick="window.history.back()">Cancel</button>
 
-            </form>--}}
+            </form>
         </div>
     </div>
 

@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories/showByAdmin.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/_form.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -170,14 +183,15 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/sass" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Configurable.PHP.Blade" />
+    <property name="settings.editor.selected.configurable" value="de.espend.idea.laravel.ui.TemplateSettingsForm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\blog\resources\views" />
       <recent name="C:\projects\blog\resources\sass" />
       <recent name="C:\projects\blog\resources\js" />
       <recent name="C:\projects\blog\resources\views\layouts" />
@@ -279,7 +293,10 @@
       <workItem from="1566050004048" duration="7521000" />
       <workItem from="1566111516539" duration="572000" />
       <workItem from="1566112116042" duration="84000" />
-      <workItem from="1566139722928" duration="1535000" />
+      <workItem from="1566139722928" duration="2248000" />
+      <workItem from="1566186206660" duration="1162000" />
+      <workItem from="1566187394858" duration="6345000" />
+      <workItem from="1566294128887" duration="5984000" />
     </task>
     <task id="LOCAL-00001" summary="+ about/contact view">
       <created>1562170839559</created>
@@ -456,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566057735016</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="category migration model ++">
+      <created>1566141499733</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1566141499733</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -499,7 +523,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+ about/contact view" />
     <MESSAGE value="+ css/js fixed" />
     <MESSAGE value="+Model Relationship" />
     <MESSAGE value="+Model Relationship fix" />
@@ -524,6 +547,7 @@
     <MESSAGE value="fix css/js for backend" />
     <MESSAGE value="admin panel 調整" />
     <MESSAGE value="admin create/edit/view 調整" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin create/edit/view 調整" />
+    <MESSAGE value="category migration model ++" />
+    <option name="LAST_COMMIT_MESSAGE" value="category migration model ++" />
   </component>
 </project>

@@ -49233,6 +49233,20 @@ document.deletePost = function (id) {
   }
 };
 
+document.deleteCategory = function (id) {
+  var result = confirm('Do you want to delete the category?');
+
+  if (result) {
+    var actionUrl = '/categories/' + id; // $('#delete-form').attr('action',actionUrl).submit();
+
+    $.post(actionUrl, {
+      _method: 'delete'
+    }).done(function () {
+      location.href = '/categories/admin';
+    });
+  }
+};
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

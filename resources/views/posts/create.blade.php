@@ -24,31 +24,8 @@
 <div class="page-content">
     <div class="container">
 
-        @if ($errors->any())
-            <div class="alert alert-danger">
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-        @endif
+        @include('posts._form')
 
-        <form method="post" action="/posts">
-            @csrf
-            <div class="form-group">
-                <label for="exampleInputEmail1">Title</label>
-                <input type="text" class="form-control" name="title">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Content</label>
-                <textarea class="form-control" name="content" rows="8" cols="80"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-            <button type="button" class="btn btn-secondary" onclick="window.history.back()">Cancel</button>
-
-        </form>
     </div>
 </div>
 

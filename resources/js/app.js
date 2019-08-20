@@ -46,4 +46,16 @@ document.deletePost = function (id) {
             location.href = '/posts/admin';
         })
     }
-}
+};
+
+document.deleteCategory = function (id) {
+    let result = confirm('Do you want to delete the category?');
+    if (result){
+        let actionUrl = '/categories/'+id;
+        // $('#delete-form').attr('action',actionUrl).submit();
+        $.post(actionUrl,{_method:'delete'}).done(function () {
+            location.href = '/categories/admin';
+        })
+    }
+};
+
