@@ -54,7 +54,7 @@ document.deleteCategory = function (id) {
         let actionUrl = '/categories/'+id;
         // $('#delete-form').attr('action',actionUrl).submit();
         $.post(actionUrl,{_method:'delete'}).done(function () {
-            location.href = '/categories/admin';
+            location.href = '/categories';
         })
     }
 };

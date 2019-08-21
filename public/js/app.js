@@ -49242,7 +49242,7 @@ document.deleteCategory = function (id) {
     $.post(actionUrl, {
       _method: 'delete'
     }).done(function () {
-      location.href = '/categories/admin';
+      location.href = '/categories';
     });
   }
 };
