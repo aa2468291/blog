@@ -6,7 +6,7 @@
 .env
 .phpunit.result.cache
 Homestead.json
+_ide_helper.php
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-_ide_helper.php
