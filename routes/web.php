@@ -46,6 +46,8 @@ Route::middleware(['auth'])->group(function (){
 
 
 Route::get('/posts','PostController@index');
+Route::get('/posts/catetory/{category}','PostController@indexWithCategory');
+
 Route::get('/posts/{post}','PostController@show');
 
 
