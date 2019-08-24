@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/posts/_sidebar.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -302,7 +301,9 @@
       <workItem from="1566401798571" duration="821000" />
       <workItem from="1566482731353" duration="3900000" />
       <workItem from="1566487305362" duration="15000" />
-      <workItem from="1566530541514" duration="10095000" />
+      <workItem from="1566530541514" duration="10585000" />
+      <workItem from="1566644271767" duration="54000" />
+      <workItem from="1566644461473" duration="3846000" />
     </task>
     <task id="LOCAL-00001" summary="+ about/contact view">
       <created>1562170839559</created>
@@ -563,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566561249613</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="+ sidebar subview">
+      <created>1566563619589</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1566563619589</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TodoView">
@@ -606,7 +614,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="css updated" />
     <MESSAGE value="+ read view for admin" />
     <MESSAGE value="show view + 2 button (edit/delete)" />
     <MESSAGE value="PostController update updated&#10;redirect change to admin panel" />
@@ -631,6 +638,7 @@
     <MESSAGE value="category show in posts" />
     <MESSAGE value="+post list filtered by category page" />
     <MESSAGE value="+ date/author/category to post view" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ date/author/category to post view" />
+    <MESSAGE value="+ sidebar subview" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ sidebar subview" />
   </component>
 </project>
