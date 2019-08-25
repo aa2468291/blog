@@ -38,6 +38,10 @@
         </select>
     </div>
     <div class="form-group">
+        <label>Tags</label>
+        <input type="text" class="form-control" name="tags" value="">
+    </div>
+    <div class="form-group">
         <label>Content</label>
         <textarea class="form-control" name="content" rows="8" cols="80">{{ $post->content }}</textarea>
     </div>

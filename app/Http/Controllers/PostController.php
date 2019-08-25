@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Category;
 use App\Http\Requests\StoreBlogPost;
 use App\Post;
+use App\Tag;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -46,6 +47,20 @@ class PostController extends Controller
         $post->fill($request->all());
         $post->user_id = Auth::id();
         $post->save();
+
+        $tags = explode(',',$request->tags);
+        foreach ($tags as $tag ){
+            //create or load tags
+            $model = Tag::firstOrCreate(['name'=>$tag]);
+            // connect post & tags
+            $post->tags()->attach($model->id);
+
+
+        }
+
+
+
+
 
         return redirect('/posts/admin');
     }
