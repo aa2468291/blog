@@ -49,20 +49,19 @@ class PostController extends Controller
         $post->save();
 
         $tags = explode(',',$request->tags);
+        $this->addTagsToPost($tags,$post);
+
+        return redirect('/posts/admin');
+    }
+
+    private function addTagsToPost($tags,$post){
         foreach ($tags as $tag ){
             //create or load tags
             $model = Tag::firstOrCreate(['name'=>$tag]);
             // connect post & tags
             $post->tags()->attach($model->id);
-
-
         }
 
-
-
-
-
-        return redirect('/posts/admin');
     }
 
     public function show(Post $post)
@@ -87,8 +86,14 @@ class PostController extends Controller
     {
        /* $post->fill($request->all());
         $post->save();*/
-
         $post->update($request->all());
+
+        //remove tags relationship
+        $post->tags()->detach();
+
+
+        $tags = explode(',',$request->tags);
+        $this->addTagsToPost($tags,$post);
         return redirect('/posts/admin');
 
     }

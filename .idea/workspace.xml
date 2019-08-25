@@ -4,8 +4,9 @@
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/_form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/admin.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -304,7 +305,7 @@
       <workItem from="1566530541514" duration="10585000" />
       <workItem from="1566644271767" duration="54000" />
       <workItem from="1566644461473" duration="4645000" />
-      <workItem from="1566706951232" duration="8576000" />
+      <workItem from="1566706951232" duration="13532000" />
     </task>
     <task id="LOCAL-00001" summary="+ about/contact view">
       <created>1562170839559</created>
@@ -593,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566723830208</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="+ tags in create post form">
+      <created>1566727139671</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1566727139671</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView">
@@ -636,7 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="destroy from http to ajax call&#10;ajax setup(csrf)" />
     <MESSAGE value="make auth" />
     <MESSAGE value="auth middleware" />
     <MESSAGE value="+user_id migration" />
@@ -661,6 +668,7 @@
     <MESSAGE value="admin panel + nav links" />
     <MESSAGE value="+admin panel nav links" />
     <MESSAGE value="tag list / tag destroy method" />
-    <option name="LAST_COMMIT_MESSAGE" value="tag list / tag destroy method" />
+    <MESSAGE value="+ tags in create post form" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ tags in create post form" />
   </component>
 </project>
