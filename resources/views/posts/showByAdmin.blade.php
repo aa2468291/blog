@@ -24,6 +24,7 @@
             @if(isset($post->category))
             <small class="d-block text-muted">{{ $post->category->name }}</small>
             @endif
+            <small class="d-block text-muted">{{ $post->tagString() }}</small>
             <small class="author">{{$post->user->name}}</small>
             <div class="toolbox text-left mt-3">
 

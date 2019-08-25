@@ -66,15 +66,17 @@ class PostController extends Controller
 
     public function show(Post $post)
     {
-        if(Auth::check())
-            return view('posts.showByAdmin',compact('post'));
-        else
-        {
-            $categories = Category::all();
-            return view('posts.show',compact('post','categories'));
-        }
+        $categories = Category::all();
+        return view('posts.show', compact('post', 'categories'));
 
     }
+
+    public function showByAdmin(Post $post)
+    {
+        return view('posts.showByAdmin', compact('post'));
+    }
+
+
 
     public function edit(Post $post)
     {
