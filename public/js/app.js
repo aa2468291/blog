@@ -49247,6 +49247,20 @@ document.deleteCategory = function (id) {
   }
 };
 
+document.deleteTag = function (id) {
+  var result = confirm('Do you want to delete the tag?');
+
+  if (result) {
+    var actionUrl = '/tags/' + id; // $('#delete-form').attr('action',actionUrl).submit();
+
+    $.post(actionUrl, {
+      _method: 'delete'
+    }).done(function () {
+      location.href = '/tags';
+    });
+  }
+};
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":

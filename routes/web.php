@@ -39,6 +39,7 @@ Route::middleware(['auth'])->group(function (){
     Route::get('/posts/{post}/edit','PostController@edit');
 
     Route::resource('categories','CategoryController')->except(['show']);
+    Route::resource('tags','TagController')->only(['index','destroy']);
 
 
 
