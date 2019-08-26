@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/_sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -302,7 +305,9 @@
       <workItem from="1566530541514" duration="10585000" />
       <workItem from="1566644271767" duration="54000" />
       <workItem from="1566644461473" duration="4645000" />
-      <workItem from="1566706951232" duration="17037000" />
+      <workItem from="1566706951232" duration="17840000" />
+      <workItem from="1566821455850" duration="1199000" />
+      <workItem from="1566822899616" duration="8562000" />
     </task>
     <task id="LOCAL-00001" summary="+ about/contact view">
       <created>1562170839559</created>
@@ -612,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566744847634</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="+tags on read post for user">
+      <created>1566745494415</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1566745494415</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TodoView">
@@ -655,7 +667,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+user_id migration" />
     <MESSAGE value="post 紀錄user_id" />
     <MESSAGE value="有無登入 呈現不同頁面" />
     <MESSAGE value="+ form validation" />
@@ -680,6 +691,7 @@
     <MESSAGE value="+ tags in create post form" />
     <MESSAGE value="+ tags to update post form" />
     <MESSAGE value="separate show method" />
-    <option name="LAST_COMMIT_MESSAGE" value="separate show method" />
+    <MESSAGE value="+tags on read post for user" />
+    <option name="LAST_COMMIT_MESSAGE" value="+tags on read post for user" />
   </component>
 </project>

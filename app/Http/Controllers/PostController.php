@@ -21,16 +21,22 @@ class PostController extends Controller
     public function index()
     {
         $posts = Post::all();
-        $categories = Category::all();
-        return view('posts.index',compact('posts','categories'));
+        return view('posts.index',compact('posts'));
     }
 
     public function indexWithCategory(Category $category)
     {
         $posts = Post::where('category_id',$category->id)->get();
-        $categories = Category::all();
-        return view('posts.index',compact('posts','categories'));
+        return view('posts.index',compact('posts'));
     }
+
+    public function indexWithTag(Tag $tag)
+    {
+        $posts = $tag->posts;
+        return view('posts.index',compact('posts'));
+    }
+
+
 
 
     public function create()
