@@ -11,7 +11,7 @@
                         @endif
 
                         @if(request()->tag)
-                            # {{request()->tag->name}}
+                            #{{request()->tag->name}}
                         @endif
                     </h4>
                     <ol class="breadcrumb">

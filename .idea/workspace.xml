@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/_sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -307,7 +303,7 @@
       <workItem from="1566644461473" duration="4645000" />
       <workItem from="1566706951232" duration="17840000" />
       <workItem from="1566821455850" duration="1199000" />
-      <workItem from="1566822899616" duration="8562000" />
+      <workItem from="1566822899616" duration="8810000" />
     </task>
     <task id="LOCAL-00001" summary="+ about/contact view">
       <created>1562170839559</created>
@@ -624,17 +620,15 @@
       <option name="project" value="LOCAL" />
       <updated>1566745494415</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="+tags cloud&#10;+posts list under tags">
+      <created>1566834293906</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1566834293906</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -667,7 +661,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="post 紀錄user_id" />
     <MESSAGE value="有無登入 呈現不同頁面" />
     <MESSAGE value="+ form validation" />
     <MESSAGE value="request authorization update" />
@@ -692,6 +685,7 @@
     <MESSAGE value="+ tags to update post form" />
     <MESSAGE value="separate show method" />
     <MESSAGE value="+tags on read post for user" />
-    <option name="LAST_COMMIT_MESSAGE" value="+tags on read post for user" />
+    <MESSAGE value="+tags cloud&#10;+posts list under tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="+tags cloud&#10;+posts list under tags" />
   </component>
 </project>
