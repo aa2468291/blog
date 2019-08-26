@@ -54,10 +54,18 @@ class PostController extends Controller
         $post->user_id = Auth::id();
         $post->save();
 
-        $tags = explode(',',$request->tags);
+        $tags = $this->stringToTags($request->tags);
         $this->addTagsToPost($tags,$post);
 
         return redirect('/posts/admin');
+    }
+
+    private function stringToTags($string)
+    {
+        $tags = preg_replace('/\s(?=)/', '', $string);
+        $tags = explode(',',$tags);
+        $tags = array_filter($tags);
+        return $tags;
     }
 
     private function addTagsToPost($tags,$post){
@@ -100,7 +108,8 @@ class PostController extends Controller
         $post->tags()->detach();
 
 
-        $tags = explode(',',$request->tags);
+//        $tags = explode(',',$request->tags);
+        $tags = $this->stringToTags($request->tags);
         $this->addTagsToPost($tags,$post);
         return redirect('/posts/admin');
 
