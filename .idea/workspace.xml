@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/_form.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -305,21 +306,7 @@
       <workItem from="1566706951232" duration="17840000" />
       <workItem from="1566821455850" duration="1199000" />
       <workItem from="1566822899616" duration="12197000" />
-      <workItem from="1566875075321" duration="2445000" />
-    </task>
-    <task id="LOCAL-00001" summary="+ about/contact view">
-      <created>1562170839559</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1562170839560</updated>
-    </task>
-    <task id="LOCAL-00002" summary="+ css/js fixed">
-      <created>1562263150679</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1562263150679</updated>
+      <workItem from="1566875075321" duration="12325000" />
     </task>
     <task id="LOCAL-00003" summary="+Model Relationship">
       <created>1562771984822</created>
@@ -650,7 +637,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566876599491</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="+ thumbail column in _form">
+      <created>1566877887995</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1566877887996</updated>
+    </task>
+    <task id="LOCAL-00051" summary="show thumbnail">
+      <created>1566897689351</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1566897689351</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,8 +685,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix css/js for backend" />
-    <MESSAGE value="admin panel 調整" />
     <MESSAGE value="admin create/edit/view 調整" />
     <MESSAGE value="category migration model ++" />
     <MESSAGE value="合併form 並且開始做category" />
@@ -709,6 +708,8 @@
     <MESSAGE value="+tags link on single post view" />
     <MESSAGE value="tag中間有空格的問題 FIX" />
     <MESSAGE value="+ thumbail to post table" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ thumbail to post table" />
+    <MESSAGE value="+ thumbail column in _form" />
+    <MESSAGE value="show thumbnail" />
+    <option name="LAST_COMMIT_MESSAGE" value="show thumbnail" />
   </component>
 </project>

@@ -103,9 +103,20 @@ class PostController extends Controller
 
     public function update(StoreBlogPost $request,Post $post)
     {
+        $post->update($request->all());
+
+        if(!is_null($request->file('thumbnail'))){
+            $path = $request->file('thumbnail')->store('public');
+            $path = str_replace('public/','/storage/',$path);
+            $post->thumbnail = $path;
+        }
+
+        $post->save();
+
        /* $post->fill($request->all());
         $post->save();*/
-        $post->update($request->all());
+
+
 
         //remove tags relationship
         $post->tags()->detach();
