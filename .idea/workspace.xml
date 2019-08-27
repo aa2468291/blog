@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/_form.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -304,7 +305,7 @@
       <workItem from="1566706951232" duration="17840000" />
       <workItem from="1566821455850" duration="1199000" />
       <workItem from="1566822899616" duration="12197000" />
-      <workItem from="1566875075321" duration="1505000" />
+      <workItem from="1566875075321" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="+ about/contact view">
       <created>1562170839559</created>
@@ -642,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566837481664</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="+ thumbail to post table">
+      <created>1566876599491</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1566876599491</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +684,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="request authorization update" />
     <MESSAGE value="fix css/js for backend" />
     <MESSAGE value="admin panel 調整" />
     <MESSAGE value="admin create/edit/view 調整" />
@@ -701,6 +708,7 @@
     <MESSAGE value="+tags cloud&#10;+posts list under tags" />
     <MESSAGE value="+tags link on single post view" />
     <MESSAGE value="tag中間有空格的問題 FIX" />
-    <option name="LAST_COMMIT_MESSAGE" value="tag中間有空格的問題 FIX" />
+    <MESSAGE value="+ thumbail to post table" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ thumbail to post table" />
   </component>
 </project>
