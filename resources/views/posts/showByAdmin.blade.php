@@ -32,6 +32,14 @@
                 {{--                <a href="" class="btn btn-primary">Delete</a>--}}
                 <button class="btn btn-danger pull-right" onclick="deletePost({{$post->id}})">Delete</button>
             </div>
+            @if(!$post->thumbnail)
+                <div class="text-danger">no thumbnail</div>
+            @else
+            <img width="640" src="{{ $post->thumbnail }}" alt="thumbnail">
+            @endif
+
+
+
             <div class="content">{{$post->content}}</div>
 
 
