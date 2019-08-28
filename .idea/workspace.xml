@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/_form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -306,14 +306,9 @@
       <workItem from="1566706951232" duration="17840000" />
       <workItem from="1566821455850" duration="1199000" />
       <workItem from="1566822899616" duration="12197000" />
-      <workItem from="1566875075321" duration="12325000" />
-    </task>
-    <task id="LOCAL-00003" summary="+Model Relationship">
-      <created>1562771984822</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1562771984822</updated>
+      <workItem from="1566875075321" duration="13118000" />
+      <workItem from="1566974845667" duration="3723000" />
+      <workItem from="1567001714994" duration="817000" />
     </task>
     <task id="LOCAL-00004" summary="+Model Relationship fix">
       <created>1562772530971</created>
@@ -651,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566897689351</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="update post + thumbnail">
+      <created>1566899243430</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1566899243430</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +687,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="admin create/edit/view 調整" />
     <MESSAGE value="category migration model ++" />
     <MESSAGE value="合併form 並且開始做category" />
     <MESSAGE value="category create" />
@@ -710,6 +711,7 @@
     <MESSAGE value="+ thumbail to post table" />
     <MESSAGE value="+ thumbail column in _form" />
     <MESSAGE value="show thumbnail" />
-    <option name="LAST_COMMIT_MESSAGE" value="show thumbnail" />
+    <MESSAGE value="update post + thumbnail" />
+    <option name="LAST_COMMIT_MESSAGE" value="update post + thumbnail" />
   </component>
 </project>
