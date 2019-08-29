@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -311,14 +309,7 @@
       <workItem from="1566875075321" duration="13118000" />
       <workItem from="1566974845667" duration="3723000" />
       <workItem from="1567001714994" duration="1487000" />
-      <workItem from="1567048777304" duration="2792000" />
-    </task>
-    <task id="LOCAL-00005" summary="test">
-      <created>1562772594790</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1562772594790</updated>
+      <workItem from="1567048777304" duration="4834000" />
     </task>
     <task id="LOCAL-00006" summary="route updated(CRUD)">
       <created>1562829131605</created>
@@ -656,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567002578893</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="+comments routing / + store comment">
+      <created>1567051842678</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1567051842679</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +688,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="合併form 並且開始做category" />
     <MESSAGE value="category create" />
     <MESSAGE value="category CRUD FINISH" />
     <MESSAGE value="category validation" />
@@ -715,6 +712,7 @@
     <MESSAGE value="show thumbnail" />
     <MESSAGE value="update post + thumbnail" />
     <MESSAGE value="+comments table and model" />
-    <option name="LAST_COMMIT_MESSAGE" value="+comments table and model" />
+    <MESSAGE value="+comments routing / + store comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="+comments routing / + store comment" />
   </component>
 </project>
