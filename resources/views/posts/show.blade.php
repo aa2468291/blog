@@ -130,15 +130,23 @@
                                         <div class="comment-info">
                                             <div class="comment-author">
                                                 <a href="#">{{ $comment->user->name }}</a>
+                                                <button class="btn btn-default" onclick="toggleCommentForm(event)">edit</button>
+                                                <button class="btn btn-default">delete</button>
                                             </div>
                                             {{ $comment->created_at->format('F d, Y').', at '.$comment->created_at->format('G:i') }}
-{{--                                            July 02, 2015, at 11:34--}}
                                         </div>
 
-                                        <p>
-                                            {{ $comment->comment }}
+                                        <div class="comment-body">
+                                            <p>
+                                                {{ $comment->comment }}
+                                            </p>
+                                            <form class="update-comment" action="/comments/{{ $comment->id}}" method="post">
+                                                <input type="text" name="comment" value="{{ $comment->comment }}">
+                                                <button>update</button>
+                                            </form>
+                                        </div>
 
-                                        </p>
+
 
                                     </div>
 

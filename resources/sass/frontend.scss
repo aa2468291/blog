@@ -7,3 +7,17 @@
 //// Bootstrap
 //@import '~bootstrap/scss/bootstrap';
 
+.comment-body{
+    form{
+        display: none;
+    }
+
+    &.edit{
+        form{
+            display:block;
+        }
+        p{
+            display: none;
+        }
+    }
+}

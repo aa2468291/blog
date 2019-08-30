@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/frontend.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/frontend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/frontend.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/frontend.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,7 +180,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -309,14 +314,7 @@
       <workItem from="1566974845667" duration="3723000" />
       <workItem from="1567001714994" duration="1487000" />
       <workItem from="1567048777304" duration="5805000" />
-      <workItem from="1567137037510" duration="2191000" />
-    </task>
-    <task id="LOCAL-00007" summary="Post Model,PostController updated">
-      <created>1562861667828</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1562861667828</updated>
+      <workItem from="1567137037510" duration="4717000" />
     </task>
     <task id="LOCAL-00008" summary="+list view">
       <created>1562900873503</created>
@@ -654,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567092629708</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="read real comments">
+      <created>1567146238061</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1567146238061</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,7 +693,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="category CRUD FINISH" />
     <MESSAGE value="category validation" />
     <MESSAGE value="+category to posts form" />
     <MESSAGE value="category show in posts" />
@@ -713,6 +717,7 @@
     <MESSAGE value="+comments table and model" />
     <MESSAGE value="+comments routing / + store comment" />
     <MESSAGE value="+ comment validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ comment validation" />
+    <MESSAGE value="read real comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="read real comments" />
   </component>
 </project>
