@@ -312,14 +312,7 @@
       <workItem from="1566974845667" duration="3723000" />
       <workItem from="1567001714994" duration="1487000" />
       <workItem from="1567048777304" duration="5805000" />
-      <workItem from="1567137037510" duration="6863000" />
-    </task>
-    <task id="LOCAL-00009" summary="admin/create view updated">
-      <created>1562903293416</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1562903293416</updated>
+      <workItem from="1567137037510" duration="8145000" />
     </task>
     <task id="LOCAL-00010" summary="css updated">
       <created>1562903304899</created>
@@ -657,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567164728996</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="delete comment">
+      <created>1567166597722</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1567166597722</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +691,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+category to posts form" />
     <MESSAGE value="category show in posts" />
     <MESSAGE value="+post list filtered by category page" />
     <MESSAGE value="+ date/author/category to post view" />
@@ -716,6 +715,7 @@
     <MESSAGE value="+ comment validation" />
     <MESSAGE value="read real comments" />
     <MESSAGE value="update comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="update comment" />
+    <MESSAGE value="delete comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete comment" />
   </component>
 </project>

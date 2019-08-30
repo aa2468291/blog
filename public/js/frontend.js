@@ -12866,9 +12866,13 @@ deleteComment = function deleteComment(e) {
 
 $('form.update-comment').submit(function (e) {
   e.preventDefault();
+  var post_id = $(e.currentTarget).find('[name="post_id"]').val();
+  var name = $(e.currentTarget).find('[name="name"]').val();
   var comment = $(e.currentTarget).find('[name="comment"]').val();
   $.post($(e.currentTarget).attr('action'), {
     _method: 'put',
+    post_id: post_id,
+    name: name,
     comment: comment
   }).done(function (data) {
     $(e.currentTarget).closest('.comment-body').toggleClass('edit');
