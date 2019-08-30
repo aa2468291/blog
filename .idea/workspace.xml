@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -309,14 +308,8 @@
       <workItem from="1566875075321" duration="13118000" />
       <workItem from="1566974845667" duration="3723000" />
       <workItem from="1567001714994" duration="1487000" />
-      <workItem from="1567048777304" duration="4834000" />
-    </task>
-    <task id="LOCAL-00006" summary="route updated(CRUD)">
-      <created>1562829131605</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1562829131605</updated>
+      <workItem from="1567048777304" duration="5805000" />
+      <workItem from="1567137037510" duration="2191000" />
     </task>
     <task id="LOCAL-00007" summary="Post Model,PostController updated">
       <created>1562861667828</created>
@@ -654,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567051842679</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="+ comment validation">
+      <created>1567092629708</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1567092629708</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,7 +688,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="category create" />
     <MESSAGE value="category CRUD FINISH" />
     <MESSAGE value="category validation" />
     <MESSAGE value="+category to posts form" />
@@ -713,6 +712,7 @@
     <MESSAGE value="update post + thumbnail" />
     <MESSAGE value="+comments table and model" />
     <MESSAGE value="+comments routing / + store comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="+comments routing / + store comment" />
+    <MESSAGE value="+ comment validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ comment validation" />
   </component>
 </project>
