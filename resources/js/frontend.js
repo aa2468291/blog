@@ -41,6 +41,19 @@ toggleCommentForm = function (e) {
     $(e.currentTarget).closest('.comment-info').siblings('.comment-body').toggleClass('edit');
 };
 
+deleteComment = function(e){
+  let result = confirm('delete comment?');
+  let action = $(e.currentTarget).data('action');
+  let comment = $(e.currentTarget).closest('.media');
+  if(result) {
+      $.post(action, {
+          _method: 'delete',
+      }).done(function (data) {
+          comment.remove();
+      });
+  }
+};
+
 $('form.update-comment').submit(function (e) {
     e.preventDefault();
     let comment = $(e.currentTarget).find('[name="comment"]').val();

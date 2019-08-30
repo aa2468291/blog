@@ -131,7 +131,7 @@
                                             <div class="comment-author">
                                                 <a href="#">{{ $comment->user->name }}</a>
                                                 <button class="btn btn-default" onclick="toggleCommentForm(event)">edit</button>
-                                                <button class="btn btn-default">delete</button>
+                                                <button class="btn btn-default" onclick="deleteComment(event)" data-action="/comments/{{$comment->id}}">delete</button>
                                             </div>
                                             {{ $comment->created_at->format('F d, Y').', at '.$comment->created_at->format('G:i') }}
                                         </div>
