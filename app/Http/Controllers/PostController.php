@@ -20,7 +20,7 @@ class PostController extends Controller
 
     public function index()
     {
-        $posts = Post::all();
+        $posts = Post::paginate(5);
         return view('posts.index',compact('posts'));
     }
 
@@ -35,8 +35,6 @@ class PostController extends Controller
         $posts = $tag->posts;
         return view('posts.index',compact('posts'));
     }
-
-
 
 
     public function create()
@@ -83,8 +81,9 @@ class PostController extends Controller
 
     public function show(Post $post)
     {
-        $categories = Category::all();
-        return view('posts.show', compact('post', 'categories'));
+        $prevPostId = Post::where('id','<',$post->id)->max('id');
+        $nextPostId = Post::where('id','>',$post->id)->min('id');
+        return view('posts.show', compact('post','prevPostId','nextPostId'));
 
     }
 
