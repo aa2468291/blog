@@ -115,8 +115,6 @@ class PostController extends Controller
        /* $post->fill($request->all());
         $post->save();*/
 
-
-
         //remove tags relationship
         $post->tags()->detach();
 

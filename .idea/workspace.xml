@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="">
+    <list default="true" id="4e70fd2e-a081-405d-ae77-1f1301bb66b2" name="Default Changelist" comment="jenkins demo">
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_07_10_140013_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_07_10_140013_create_posts_table.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +131,6 @@
       <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
-      <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/symfony/debug" />
@@ -166,18 +166,25 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/mostafaznv/recaptcha" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ObASTc3JqJBLr9Fn6STekeJCoM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="C:/xampp/htdocs/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -191,18 +198,6 @@
       <recent name="C:\projects\blog" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -210,18 +205,15 @@
     </configuration>
   </component>
   <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@421f3f0" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -313,34 +305,65 @@
       <workItem from="1567048777304" duration="5805000" />
       <workItem from="1567137037510" duration="9804000" />
       <workItem from="1567244992917" duration="6051000" />
-    </task>
-    <task id="LOCAL-00011" summary="+ read view for admin">
-      <created>1562922664337</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1562922664337</updated>
-    </task>
-    <task id="LOCAL-00012" summary="show view + 2 button (edit/delete)">
-      <created>1562923839491</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1562923839491</updated>
-    </task>
-    <task id="LOCAL-00013" summary="PostController update updated&#10;redirect change to admin panel">
-      <created>1563025292775</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1563025292775</updated>
-    </task>
-    <task id="LOCAL-00014" summary="+PostController destroy&#10;+layout script section&#10;+admin panel delete action">
-      <created>1563028265412</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1563028265412</updated>
+      <workItem from="1567271748181" duration="274000" />
+      <workItem from="1567342767445" duration="690000" />
+      <workItem from="1567348322009" duration="1458000" />
+      <workItem from="1567429019570" duration="2000" />
+      <workItem from="1567432172140" duration="388000" />
+      <workItem from="1567440621569" duration="1337000" />
+      <workItem from="1567522153261" duration="1255000" />
+      <workItem from="1567599411039" duration="2413000" />
+      <workItem from="1567684582425" duration="613000" />
+      <workItem from="1567703973317" duration="384000" />
+      <workItem from="1567847970717" duration="205000" />
+      <workItem from="1567848187780" duration="1301000" />
+      <workItem from="1567929391094" duration="930000" />
+      <workItem from="1568806955635" duration="161000" />
+      <workItem from="1568807215557" duration="1192000" />
+      <workItem from="1568810354004" duration="214000" />
+      <workItem from="1568908586481" duration="774000" />
+      <workItem from="1569061611996" duration="609000" />
+      <workItem from="1569157849059" duration="2660000" />
+      <workItem from="1569592560329" duration="625000" />
+      <workItem from="1576112872695" duration="367000" />
+      <workItem from="1576119673888" duration="714000" />
+      <workItem from="1576478953361" duration="3001000" />
+      <workItem from="1576586078777" duration="3055000" />
+      <workItem from="1576637326056" duration="7291000" />
+      <workItem from="1576685608337" duration="8000" />
+      <workItem from="1576808233407" duration="3378000" />
+      <workItem from="1576856079136" duration="59000" />
+      <workItem from="1576942896262" duration="34000" />
+      <workItem from="1576945587252" duration="679000" />
+      <workItem from="1577015333731" duration="701000" />
+      <workItem from="1577116678251" duration="10000" />
+      <workItem from="1577153840572" duration="1829000" />
+      <workItem from="1577177059267" duration="1362000" />
+      <workItem from="1577280516976" duration="2132000" />
+      <workItem from="1577323000348" duration="1671000" />
+      <workItem from="1577363067668" duration="616000" />
+      <workItem from="1577456149257" duration="13000" />
+      <workItem from="1578838213452" duration="1732000" />
+      <workItem from="1578841506907" duration="19000" />
+      <workItem from="1578917208304" duration="2980000" />
+      <workItem from="1578934966413" duration="87000" />
+      <workItem from="1578974104881" duration="95000" />
+      <workItem from="1579099013237" duration="2861000" />
+      <workItem from="1579107650321" duration="16000" />
+      <workItem from="1579141571071" duration="4641000" />
+      <workItem from="1579171893690" duration="189000" />
+      <workItem from="1579172098238" duration="142000" />
+      <workItem from="1579172376932" duration="689000" />
+      <workItem from="1579182871380" duration="215000" />
+      <workItem from="1579183099525" duration="39000" />
+      <workItem from="1579183565352" duration="3406000" />
+      <workItem from="1579360925349" duration="58000" />
+      <workItem from="1580701386605" duration="282000" />
+      <workItem from="1580709871883" duration="2611000" />
+      <workItem from="1581076099359" duration="2738000" />
+      <workItem from="1581093039527" duration="31000" />
+      <workItem from="1581433997995" duration="1129000" />
+      <workItem from="1582258946612" duration="333000" />
     </task>
     <task id="LOCAL-00015" summary="destroy from http to ajax call&#10;ajax setup(csrf)">
       <created>1563030845896</created>
@@ -657,7 +680,35 @@
       <option name="project" value="LOCAL" />
       <updated>1567168109483</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="jenkins demo test">
+      <created>1567848120094</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1567848120094</updated>
+    </task>
+    <task id="LOCAL-00061" summary="jenkins demo test2">
+      <created>1567859500762</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1567859500762</updated>
+    </task>
+    <task id="LOCAL-00062" summary="jenkins demo 0908">
+      <created>1567929452483</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1567929452483</updated>
+    </task>
+    <task id="LOCAL-00063" summary="jenkins demo">
+      <created>1567929723869</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1567929723869</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,10 +742,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+post list filtered by category page" />
-    <MESSAGE value="+ date/author/category to post view" />
-    <MESSAGE value="+ sidebar subview" />
-    <MESSAGE value="+ tag model" />
     <MESSAGE value="admin panel + nav links" />
     <MESSAGE value="+admin panel nav links" />
     <MESSAGE value="tag list / tag destroy method" />
@@ -716,6 +763,40 @@
     <MESSAGE value="update comment" />
     <MESSAGE value="delete comment" />
     <MESSAGE value="show button only login / comment request validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="show button only login / comment request validation" />
+    <MESSAGE value="jenkins demo test" />
+    <MESSAGE value="jenkins demo test2" />
+    <MESSAGE value="jenkins demo 0908" />
+    <MESSAGE value="jenkins demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins demo" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="573" y="110" key="CommitChangelistDialog2" timestamp="1576676555782">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="573" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576676555782" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1576856136979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1576856136979" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1579360978878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579360978878" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582259392179">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582259392179" />
+    <state x="642" y="258" width="635" height="534" key="find.popup" timestamp="1579188201442">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="642" y="258" width="635" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579188201442" />
+    <state x="689" y="311" key="git4idea.merge.GitPullDialog" timestamp="1579141958621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579141958621" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581434711610">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581434711610" />
   </component>
 </project>

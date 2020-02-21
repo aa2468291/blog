@@ -32,7 +32,6 @@ class CreatePostsTable extends Migration
     {
         Schema::table('posts', function (Blueprint $table) {
             $table->dropForeign(['user_id']);
-
         });
         Schema::dropIfExists('posts');
     }
